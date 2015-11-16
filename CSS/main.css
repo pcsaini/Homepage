@@ -1,0 +1,243 @@
+    body{
+        background-color: burlywood;
+        font-family: 'Open Sans',sans-serif;
+        font-size: 14px;
+        color: black;
+        margin: 0;
+        position: relative;
+    }
+    #header{
+        margin: auto;
+        width: auto;
+        height: 60px;
+        background-color: #000;
+        padding: 10px 10px;
+    }
+    .header_box{
+        position: relative;
+    }
+    .logo{
+        float: left;
+        position: relative;
+        z-index: 2;
+    }
+
+    #main-nav{
+        margin: auto;
+        width: auto;
+        height: inherit;
+        padding: 2px 2px 2px 2px;
+
+    }
+    .navbar-inverse {
+        background-color: transparent;
+        border-color: transparent;
+    }
+
+    .navbar {
+        border: 0px solid #fff;
+        min-height: 40px;
+        margin-bottom: 0px;
+    }
+
+    .navbar-inverse .navbar-nav > li > a {
+        color: #FFF;
+    }
+
+
+    .navStyle {
+        text-align:right;
+
+    }
+
+    .navStyle ul {
+        list-style: none;
+        padding: 0px;
+    }
+
+    .navStyle ul li {
+        display: inline-block;
+        margin: 0 5px;
+        padding-left: 15px;
+        padding-right: 15px
+    }
+
+
+
+    .navStyle ul li a {
+        display: block;
+        font-size: 20px;
+        color: #222222;
+        font-family: 'Raleway', sans-serif;
+        text-decoration: none;
+        font-weight: 600;
+        transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -webkit-transition: all 0.2s ease-in-out;
+    }
+
+    .navStyle ul li a:hover {
+        color:aqua;
+        box-shadow: 0em 0.2em;
+    }
+
+    .navStyle > li > a:hover, .nav > li > a:focus {
+        text-decoration: none;
+        color: #005490;
+        background-color: transparent;   
+
+    }
+
+    #container{
+        margin: auto;
+        width: 1000px;
+    }
+    #myname{
+        height: auto;
+        width: auto;
+        text-align: center;
+        color: #222222;
+        font-size: 30px;
+        font-family: cursive;
+        padding: 20px 20px;
+
+    }
+    #content{
+        height: auto;
+        width: auto;
+        padding-bottom: 20px;
+    }
+    #photo{
+        width: 900px;
+        margin: auto;
+        color:black;
+        font-size: 30px;
+        font-family: cursive;
+        
+    }
+h5{
+    text-align: center;
+    font-style:italic;
+    font-feature-settings: normal;
+    
+}
+.photos{
+        border: solid 0.1em aliceblue;
+        border-radius: 5.0em;
+}
+    p{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: right;
+    }
+    .text{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align:center;
+        font-size: 20px;
+        font-family:sans-serif;
+        color: black;
+        
+    }
+    #social{
+        margin: auto;
+        height: auto;
+        width: auto;
+        text-align: center;
+    }
+    .social1{
+         background-color: transparent; 
+    }
+
+    .soaial1 ul {
+        list-style: none;
+        padding: 0px;
+    }
+
+    .social1 ul li {
+        display: inline-block;
+        margin: 0 5px;
+        margin-right: 0.3em;
+        border: solid 0.2em aliceblue;
+        border-radius: 2.0em;
+    }
+
+
+
+    .social1 ul li a {
+        display: block;
+        font-size: 20px;
+        color: #222222;
+        font-family: 'Raleway', sans-serif;
+        text-decoration: none;
+        font-weight: 600;
+        transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -webkit-transition: all 0.2s ease-in-out;
+    }
+
+    .social1 ul li a:hover {
+        color: #005400;
+    }
+#feedback{
+    margin: auto;
+    text-align-last: center;
+    width: auto;
+    font-size: 25px;
+    height: auto;
+    font-family: serif;
+}
+.form-group{
+    text-align: left;
+}
+.tb tr td{
+    font-size: 25px;    
+}
+#sub{
+    text-align: center
+}
+    .hh:hover{
+        border: solid 0.1em white;
+        box-shadow: 0 0 1em 0.2em;
+    }
+    #footer{
+        width: auto;
+        text-align: center;
+        background-color:black; 
+        height: auto;
+        padding: 5px 5px;
+        font-size: 20px;
+        color: white;
+    }  
+    .footer1{
+        background-color:transparent;
+}
+    .footer1 ul {
+        list-style: none;
+        padding: 0px;
+    }
+
+    .footer1 ul li {
+        display: inline-block;
+        margin: 0 5px;
+        padding-left: 15px;
+        padding-right: 15px
+    }
+
+
+
+    .footer1 ul li a {
+        display: block;
+        font-size: 20px;
+        color: white;
+        font-family: 'Raleway', sans-serif;
+        text-decoration: none;
+        font-weight: 600;
+        transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -webkit-transition: all 0.2s ease-in-out;
+    }
+
+    .footer1 ul li a:hover {
+        color:aqua;
+    }
